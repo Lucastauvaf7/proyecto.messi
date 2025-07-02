@@ -1,0 +1,99 @@
+
+// HERO SECTION
+.hero {
+  background-image: url(../img/imagene\ de\ fondo\ \,\ de\ pelotas\ de\ argentina.jpg);
+
+  h2 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 30px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(77, 77, 227, 0.327);
+  }
+
+  .img-seccion {
+    display: flex;
+    justify-content: space-around;
+
+    img {
+      width: 400px;
+      height: 500px;
+      margin: 10px;
+      max-width: 350px;
+      height: auto;
+    }
+  }
+}
+
+// SECTION 2
+.second {
+  height: 100%;
+
+  h2 {
+    font-size: 40px;
+    color: white;
+    background-color: $color-secundario
+  }
+
+  .videofutbol {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    padding: 30px;
+  }
+}
+
+// SECTION 3
+.third {
+  h3 {
+    font-size: 40px;
+    text-align: center;
+    background-color: $color-secundario;
+    color: white;
+  }
+
+  .contenedora-de-tablas {
+    margin: 60px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+      height: 400px;
+      width: 600px;
+      margin: 15px;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+  }
+
+table {
+  tr {
+    th {
+      background-color: rosybrown;
+      color: $color-principal;
+    }
+
+    td {
+      background-color: turquoise;
+      color: rgb(99, 9, 9);
+    }
+  }
+}
+
+
+

@@ -1,0 +1,106 @@
+//PAGINAS SECUNDARIA BAR,PSG,INTER
+.herosecond .divsecond {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.herosecond div p {
+  background-color: rgba(48, 48, 148, 0.805);
+}
+
+//CARROUSEL INTER 
+.carrousel-2 {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+ .seccion-video {
+  width: 500px;
+  max-width: 100%;
+ 
+}
+
+//IMAGEN DEL INTER 
+.imgint {
+  width: 350px;
+  height: 250px;
+  margin: 10px;
+}
+
+//IMGAGEN DEL PSG 
+.imgpsg {
+  width: 350px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+}
+
+//IMGAGEN DEL BARCELONA 
+.imgbar {
+  width: 350px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+}
+
+//MUNDIAL2022 Y BIOGRAFIA DE LEO 
+.herohero {
+  background-color: nth($colores, 1)
+}
+
+p {
+  text-align: center;
+  color: white;
+
+}
+
+.imgdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* GRID GALERIA */
+
+.grid-galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+}
+
+.grid-item {
+  position: relative;
+  margin: 5px;
+  overflow:hidden;
+  
+}
+
+.grid-item h3 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.429);
+  bottom: 0%;
+  width: 100%;
+}
+
+
+.grid-galeria div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+//H2 DE LOS GRID
+.losgrid {
+  text-decoration: underline dashed;
+  text-align: center;
+  background-color: $color-secundario;
+  color: white;
+}
+
+
+.img-seconds {
+  width: 600px;
+  height: 400px;
+}

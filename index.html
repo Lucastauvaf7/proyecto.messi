@@ -7,42 +7,45 @@
     <!--css bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!--animation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!--icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <!--estilos css-->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 
     <title>Procer Argentino</title>
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">    
+        <nav class="navbar navbar-expand-lg minavbar">
             <div class="container-fluid">
-                 <h1>Leonel Messi</h1>
+                <h1 class="animate__animated animate__pulse animate_slow">Leonel Messi</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a  href="./index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a  href="../pages/biografiadeLeo.html">Biografia de Leo</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 miul">
+                        <li class="animate__animated animate__jello">
+                            <a href="./index.html">Inicio</a>
                         </li>
                         <li>
+                            <a href="../pages/biografiadeLeo.html">Biografia de Leo</a>
+                        </li>
+                        <li class="animate__animated animate__jello">
                             <a href="../pages/interdemiami.html">Inter de Miami</a>
                         </li>
                         <li>
                             <a href="../pages/barcelona.html">Barcelona</a>
                         </li>
-                        <li>
+                        <li class="animate__animated animate__jello">
                             <a href="../pages/mundial2022.html">Mundial 2022</a>
                         </li>
                         <li>
-                            <a href="../pages/psg.html">Paris Saint Germani</a>
+                            <a href="../pages/psg.html">Paris Saint Germain</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -53,13 +56,12 @@
             </div>
         </nav>
     </header>
-
-
+    
     <main> <!--esta etiqueta es la contenedora de todo el sitio menos el header y el footer-->
         <!--seccion-1-->
         <section class="hero">
             <div id="principal" class="messidiv1">
-                <h2>Leonel messi idolo Argentino</h2>
+                <h2 class="titulo1">Leonel messi idolo Argentino</h2>
                 <p>Lionel Andrés Messi Cuccittini nació el 24 de junio de 1987 en Rosario, Argentina. <br> Desde muy
                     chico mostró un talento único para el fútbol. <br> A los 11 años le diagnosticaron un problema
                     hormonal de crecimiento, pero el FC Barcelona apostó por él y lo llevó a España, donde inició una
@@ -137,9 +139,12 @@
                         <img src="img/Leo Argentina 1 biografia.jpg" alt="">
                         <img src="img/lionel-argentia8.webp" alt="">
                     </div>
-                </section>
-    </main>
 
+                </section>
+                <div class="whatsapp"><!--icono-de-whatsApp-->
+                    <a href=""><img src="./img/icono.64-whatsapp.png" alt=""></a>
+                </div>
+    </main>
     <footer> <!--pie de pagina-->
         <!--imagenes de redes sociales-->
         <a href="https://www.facebook.com/share/19cc7SJV1i/?mibextid=wwXIfr"><i class="bi bi-facebook"></i></a>
@@ -149,6 +154,7 @@
         <a href="https://www.instagram.com/alexander.luckitas?igsh=eXE0NnU3eXBuaTF4&utm_source=qr"><i
                 class="bi bi-file-person"></i></i></a>
     </footer>
+    <!--javascript-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>

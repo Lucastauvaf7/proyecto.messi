@@ -1,0 +1,131 @@
+/* MEDIA HEADER */
+@media screen and (max-width: 677px) {
+  header {
+    flex-direction: column;
+    background-color: blue;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  header nav ul li a {
+    background-color: rgba(28, 102, 239, 0.726);
+    color: white;
+    transition: 0.5s;
+  }
+
+  header .container-fluid h1 {
+    font-size: auto;
+    font-weight: 300px;
+    color: white;
+  }
+}
+
+// HERO MEDIA QUERIES
+ 
+
+@media screen and (max-width: 810px) {
+  .hero .img-seccion {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero .img-family {
+    display: none;
+  }
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(77, 77, 227, 0.327); 
+  }
+  @media screen and (max-width: 380px) {
+    h2 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 30px;
+    text-align: center;
+  }
+}
+.hero .img-seccion {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+//seccion 3
+
+@media screen and (max-width: 600px) {
+  .third .div-third img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+//IMG DE BIOGRAFIA DE LEO Y MUNDIAL
+@media screen and (max-width: 650px) {
+  .imgdiv img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+//PAGINAS SECUNDARIA BAR,PSG,INTER
+@media screen and (max-width: 845px) {
+
+.herosecond .divsecond {
+  display: flex;
+  flex-direction: column;
+  background-color: nth($colores , 1);
+}
+.herosecond .divsecond img {
+  width: 340px;
+  height: 300px;
+}
+
+.herosecond div p {
+  background-color: rgba(48, 48, 148, 0.805);
+}
+}
+@media screen and (max-width: 530px) {
+  .carrousel-2 .seccion-video{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/* GALERÍA MEDIA QUERIES */
+@media screen and (max-width: 870px) {
+  .grid-galeria {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .grid-galeria {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid-galeria {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .grid-item {
+    width: 100%;
+    height: 300px;
+  }
+}

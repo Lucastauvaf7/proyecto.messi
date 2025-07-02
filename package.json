@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-de-coderhouse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucastauvaf7/proyecto.messi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucastauvaf7/proyecto.messi/issues"
+  },
+  "homepage": "https://github.com/Lucastauvaf7/proyecto.messi#readme",
+  "description": ""
+}

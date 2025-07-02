@@ -1,0 +1,371 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.miboton {
+  color: rgb(164, 203, 203);
+  background-color: rgba(22, 131, 255, 0.585);
+}
+
+header .minavbar {
+  background-color: blue !important;
+}
+header .minavbar .miul {
+  display: flex;
+}
+header .minavbar .miul li {
+  list-style: none;
+  margin: 10px;
+}
+header .minavbar .miul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+header .minavbar .miul li a:hover {
+  background-color: rgb(56, 45, 160);
+  transform: scale(1.05);
+}
+header .container-fluid h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: white;
+  margin: 40px;
+}
+header .collapse-navbar-collapse {
+  color: white;
+}
+header .navbar-collapse .navbar-nav {
+  color: beige;
+}
+
+.navbar-toggler {
+  border: rgb(104, 104, 216);
+  background-color: rgba(32, 32, 212, 0.668);
+}
+
+.btn-outline-successs {
+  background-color: rgb(104, 104, 216);
+  border: rgba(0, 0, 255, 0.576);
+  color: white;
+  transition: 0.5s;
+}
+.btn-outline-successs:hover {
+  background-color: rgb(232, 232, 232);
+}
+
+.hero {
+  background-image: url(../img/imagene\ de\ fondo\ \,\ de\ pelotas\ de\ argentina.jpg);
+}
+.hero h2 {
+  font-size: 60px;
+  font-weight: 900;
+  margin: 30px;
+  text-align: center;
+}
+.hero p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgba(77, 77, 227, 0.327);
+}
+.hero .img-seccion {
+  display: flex;
+  justify-content: space-around;
+}
+.hero .img-seccion img {
+  width: 400px;
+  height: 500px;
+  margin: 10px;
+  max-width: 350px;
+  height: auto;
+}
+
+.second {
+  height: 100%;
+}
+.second h2 {
+  font-size: 40px;
+  color: white;
+  background-color: rgb(104, 104, 216);
+}
+.second .videofutbol {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  padding: 30px;
+}
+
+.third h3 {
+  font-size: 40px;
+  text-align: center;
+  background-color: rgb(104, 104, 216);
+  color: white;
+}
+.third .contenedora-de-tablas {
+  margin: 60px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.third .div-third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.third .div-third img {
+  height: 400px;
+  width: 600px;
+  margin: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+table tr th {
+  background-color: rosybrown;
+  color: blue;
+}
+table tr td {
+  background-color: turquoise;
+  color: rgb(99, 9, 9);
+}
+
+footer {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer i {
+  font-size: 50px;
+  transition: 0.5s;
+}
+footer i:hover {
+  color: rgb(56, 45, 160);
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+  z-index: 1000;
+  transition: 0.5s;
+}
+.whatsapp:hover {
+  background: #020024;
+  background: linear-gradient(171deg, rgb(2, 0, 36) 0%, rgba(215, 218, 224, 0.47) 22%, rgb(0, 212, 255) 100%);
+}
+
+.herosecond .divsecond {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.herosecond div p {
+  background-color: rgba(48, 48, 148, 0.805);
+}
+
+.carrousel-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.seccion-video {
+  width: 500px;
+  max-width: 100%;
+}
+
+.imgint {
+  width: 350px;
+  height: 250px;
+  margin: 10px;
+}
+
+.imgpsg {
+  width: 350px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.imgbar {
+  width: 350px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.herohero {
+  background-color: rgb(138, 138, 205);
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+.imgdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* GRID GALERIA */
+.grid-galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+}
+
+.grid-item {
+  position: relative;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.grid-item h3 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.429);
+  bottom: 0%;
+  width: 100%;
+}
+
+.grid-galeria div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.losgrid {
+  text-decoration: underline dashed;
+  text-align: center;
+  background-color: rgb(104, 104, 216);
+  color: white;
+}
+
+.img-seconds {
+  width: 600px;
+  height: 400px;
+}
+
+/* MEDIA HEADER */
+@media screen and (max-width: 677px) {
+  header {
+    flex-direction: column;
+    background-color: blue;
+  }
+  header nav ul {
+    flex-direction: column;
+  }
+  header nav ul li {
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+  }
+  header nav ul li a {
+    background-color: rgba(28, 102, 239, 0.726);
+    color: white;
+    transition: 0.5s;
+  }
+  header .container-fluid h1 {
+    font-size: auto;
+    font-weight: 300px;
+    color: white;
+  }
+}
+@media screen and (max-width: 810px) {
+  .hero .img-seccion {
+    width: 100%;
+    height: 100%;
+  }
+  .hero .img-family {
+    display: none;
+  }
+}
+p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgba(77, 77, 227, 0.327);
+}
+
+@media screen and (max-width: 380px) {
+  h2 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 30px;
+    text-align: center;
+  }
+}
+.hero .img-seccion {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .third .div-third img {
+    height: 100%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .imgdiv img {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 845px) {
+  .herosecond .divsecond {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(138, 138, 205);
+  }
+  .herosecond .divsecond img {
+    width: 340px;
+    height: 300px;
+  }
+  .herosecond div p {
+    background-color: rgba(48, 48, 148, 0.805);
+  }
+}
+@media screen and (max-width: 530px) {
+  .carrousel-2 .seccion-video {
+    width: 100%;
+    height: auto;
+  }
+}
+/* GALERÍA MEDIA QUERIES */
+@media screen and (max-width: 870px) {
+  .grid-galeria {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 850px) {
+  .grid-galeria {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid-galeria {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 580px) {
+  .grid-item {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
