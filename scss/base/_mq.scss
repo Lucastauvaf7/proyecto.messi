@@ -1,3 +1,14 @@
+//HERO SECCION RESPONSIVE 
+@media screen and (max-width: 650px) {
+  .hero {
+  background-image: url(../img/imagene\ de\ fondo\ \,\ de\ pelotas\ de\ argentina.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+}
+
 /* MEDIA HEADER */
 @media screen and (max-width: 677px) {
   header {
