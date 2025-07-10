@@ -1,10 +1,9 @@
 // FOOTER
+
 footer {
-  background-color:$color-principal;
+  background-color: $color-principal;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-
   i {
     font-size: 50px;
     transition: 0.5s;
