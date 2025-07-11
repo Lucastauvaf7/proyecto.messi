@@ -94,9 +94,11 @@ p {
   .imgdiv img {
     width: 300px;
     height: 300px;
+    object-fit: cover;
     
   }
 }
+
 
 //PAGINAS SECUNDARIA BAR,PSG,INTER
 @media screen and (max-width: 845px) {
@@ -134,6 +136,15 @@ p {
   .grid-galeria {
     grid-template-columns: 1fr 1fr;
   }
+}
+@media screen and (max-width: 590px) {
+  .grid-item {
+  position: relative;
+  overflow:hidden;
+  margin: 0%
+  
+}
+  
 }
 
 @media screen and (max-width: 600px) {
