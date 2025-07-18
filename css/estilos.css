@@ -295,6 +295,21 @@ p {
     color: white;
   }
 }
+@media screen and (max-width: 450px) {
+  header {
+    position: sticky;
+    z-index: 100;
+    margin: 0%;
+    top: 0%;
+  }
+  header h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin: 0%;
+    padding: 0%;
+  }
+}
 @media screen and (max-width: 810px) {
   .hero .img-seccion {
     width: 100%;
