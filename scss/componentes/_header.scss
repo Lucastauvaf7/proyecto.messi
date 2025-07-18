@@ -1,8 +1,15 @@
 // HEADER
+header{
+  position: sticky;
+  z-index: 100;
+  margin: 0%;
+  top: 0%;
+}
+
 header {
   .minavbar {
     background-color: $color-principal !important;
-  
+    
 
   .miul {
     display: flex;
