@@ -1,4 +1,3 @@
-
 /* MEDIA HEADER */
 @media screen and (max-width: 677px) {
   header {
@@ -29,22 +28,24 @@
     color: white;
   }
 }
-@media screen and (max-width: 450px) {
-  header{
-  position: sticky;
-  z-index: 100;
-  margin: 0%;
-  top: 0%;
-  }
-    h1{
-      font-size: 30px;
-      color: white;
-      font-weight: 100;
-      margin: 0%;
-      padding: 0%;
-    }
 
-  
+@media screen and (max-width: 450px) {
+  header {
+    position: sticky;
+    z-index: 100;
+    margin: 0%;
+    top: 0%;
+  }
+
+  header .container-fluid h1 {
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+  }
+
+
 }
 
 // HERO MEDIA QUERIES
@@ -58,37 +59,40 @@
     display: none;
   }
 }
+
 p {
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    background-color: rgba(77, 77, 227, 0.327); 
-  }
-  @media screen and (max-width: 400px) {
-   .messidiv1 .titulo1 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgba(77, 77, 227, 0.327);
+}
+
+@media screen and (max-width: 400px) {
+  .messidiv1 .titulo1 {
     font-size: 30px;
     color: rgb(30, 20, 103);
- 
+
   }
 }
+
 .hero .img-seccion img {
-    width: 100%;
-    height: 100%;
-    margin: 0%;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
 
-  }
+}
 
 
-  //SECCION 2 
+//SECCION 2 
 
-  @media screen and (max-width: 400px) {
-    .second h2 {
+@media screen and (max-width: 400px) {
+  .second h2 {
     font-size: 30px;
     color: white;
     background-color: $color-secundario
   }
-    
-  }
+
+}
 
 
 //seccion 3
@@ -99,10 +103,11 @@ p {
     width: 100%;
   }
 }
+
 .contenedora-de-tablas {
-    justify-content: flex-start;
-   align-items: flex-start;
-  }
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 
 
 
@@ -113,7 +118,7 @@ p {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    
+
   }
 }
 
@@ -121,22 +126,24 @@ p {
 //PAGINAS SECUNDARIA BAR,PSG,INTER
 @media screen and (max-width: 845px) {
 
-.herosecond .divsecond {
-  display: flex;
-  flex-direction: column;
-  background-color: nth($colores , 1);
-}
-.herosecond .divsecond img {
-  width: 340px;
-  height: 300px;
+  .herosecond .divsecond {
+    display: flex;
+    flex-direction: column;
+    background-color: nth($colores , 1);
+  }
+
+  .herosecond .divsecond img {
+    width: 340px;
+    height: 300px;
+  }
+
+  .herosecond div p {
+    background-color: rgba(48, 48, 148, 0.805);
+  }
 }
 
-.herosecond div p {
-  background-color: rgba(48, 48, 148, 0.805);
-}
-}
 @media screen and (max-width: 530px) {
-  .carrousel-2 .seccion-video{
+  .carrousel-2 .seccion-video {
     width: 100%;
     height: auto;
   }
@@ -155,14 +162,14 @@ p {
     grid-template-columns: 1fr 1fr;
   }
 }
+
 @media screen and (max-width: 590px) {
   .grid-item {
-  position: relative;
-  overflow:hidden;
-  margin: 0%
-  
-}
-  
+    position: relative;
+    overflow: hidden;
+    margin: 0%
+  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -177,4 +184,3 @@ p {
     height: 300px;
   }
 }
-

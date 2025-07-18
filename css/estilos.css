@@ -302,12 +302,12 @@ p {
     margin: 0%;
     top: 0%;
   }
-  h1 {
-    font-size: 30px;
-    color: white;
-    font-weight: 100;
+  header .container-fluid h1 {
     margin: 0%;
     padding: 0%;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
   }
 }
 @media screen and (max-width: 810px) {
